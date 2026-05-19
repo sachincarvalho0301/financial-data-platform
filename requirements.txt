@@ -1,0 +1,4 @@
+pandas
+yfinance
+snowflake-connector-python
+streamlit

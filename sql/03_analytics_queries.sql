@@ -1,0 +1,32 @@
+SELECT
+    date,
+    close,
+    volume
+FROM FINANCIAL_DB.ANALYTICS.STOCK_PRICES
+ORDER BY volume DESC
+LIMIT 10;
+
+SELECT
+    ROUND(AVG(close), 2) AS avg_close_price
+FROM FINANCIAL_DB.ANALYTICS.STOCK_PRICES;
+
+SELECT
+    date,
+    daily_return_pct
+FROM FINANCIAL_DB.ANALYTICS.STOCK_PRICES
+ORDER BY daily_return_pct DESC
+LIMIT 5;
+
+SELECT
+    date,
+    daily_return_pct
+FROM FINANCIAL_DB.ANALYTICS.STOCK_PRICES
+ORDER BY daily_return_pct ASC
+LIMIT 5;
+
+SELECT
+    date,
+    close,
+    moving_avg_7
+FROM FINANCIAL_DB.ANALYTICS.STOCK_PRICES
+ORDER BY date;
