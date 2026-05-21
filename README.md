@@ -16,7 +16,7 @@ The platform extracts stock market data, performs data transformation and cleani
 - Snowflake
 - SQL
 - yFinance API
-- Streamlit (planned)
+- Streamlit
 
 ---
 
@@ -114,7 +114,6 @@ LIMIT 5;
 
 ## Future Improvements
 
-- Streamlit dashboard integration
 - Real-time stock data ingestion
 - Airflow pipeline automation
 - Multi-stock analytics
