@@ -1,10 +1,11 @@
-# Financial Data Platform
-
 ## Project Overview
+
+End-to-end financial data engineering platform using Python, Snowflake, SQL, Pandas, and Streamlit.
 
 This project is an end-to-end financial data engineering pipeline built using Python, Pandas, Snowflake, and SQL.
 
 The platform extracts stock market data, performs data transformation and cleaning, loads the processed data into Snowflake cloud warehouse, and performs analytical SQL queries for business insights.
+
 
 ---
 
